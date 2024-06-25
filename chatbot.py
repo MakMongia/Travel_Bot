@@ -1,11 +1,9 @@
-import requests
 from flask import Flask, request, jsonify
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import yaml
 import os
-import sys
-print(sys.path)
+import requests
 
 app = Flask(__name__)
 chatbot = ChatBot(name="TravelBot")
@@ -99,10 +97,9 @@ def chat():
         else:
             response = "Sorry, I couldn't retrieve the weather information. Please try again."
     else:
-        response = chatbot.get_response(user_input).text
+        response = str(chatbot.get_response(user_input))
 
     return jsonify({"response": response})
 
 if __name__ == "__main__":
-
     app.run(debug=True)
