@@ -3,7 +3,10 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import yaml
 import os
+<<<<<<< HEAD
 import requests
+=======
+>>>>>>> 886220b19cec7a5aa4d4d61f7dde324bd5872f2d
 
 app = Flask(__name__)
 chatbot = ChatBot(name="TravelBot")

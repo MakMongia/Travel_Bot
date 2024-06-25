@@ -24,7 +24,11 @@
     ```bash
     pip install -r requirements.txt
     ```
-
+    
+4. **Change API Key**:
+    ```
+    Change API key with your API key for WeatherToday
+    ```
 ## Usage
 1. **Run the Flask app**:
     ```bash
