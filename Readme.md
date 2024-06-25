@@ -34,11 +34,11 @@
     ```bash
     python app.py
     ```
-    The server usually starts on `http://127.0.0.1:5000/`.
+
 
 2. **Interact with the chatbot**:
-    - Use a tool like Postman to send POST requests to the `/chat` endpoint.
-    - Example request:
+    - Use a tool like Postman to send POST requests to the `/chat` endpoint or you can interact with Chatbot app.
+    - Example request for postman:
         ```json
         {
           "message": "How's the weather in London?"
