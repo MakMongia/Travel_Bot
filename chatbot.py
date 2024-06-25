@@ -4,8 +4,6 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import yaml
 import os
-import sys
-print(sys.path)
 
 app = Flask(__name__)
 chatbot = ChatBot(name="TravelBot")
