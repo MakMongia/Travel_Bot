@@ -11,7 +11,7 @@ def get_weather(city):
     dict: A dictionary containing the weather data if the request is successful.
     None: If the request fails (e.g., invalid city name or API request limit exceeded).
     """
-    api_key = '7dc2b9998128f4cd1423e9e9fbb70af2'  # Your OpenWeatherMap API key
+    api_key = 'INSERT YOUR API KEY'  # Your OpenWeatherMap API key
     base_url = 'https://api.openweathermap.org/data/2.5/weather'  # Base URL for the OpenWeatherMap API
 
     # Parameters for the API request
